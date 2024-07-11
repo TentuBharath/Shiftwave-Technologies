@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #557571;
+}
+.login_box {
+  display: flex;
+  align-items: flex-end;
+  width: 600px;
+  height: 350px;
+  margin: 130px auto;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 1.8);
+  border-radius: 0.5cm;
+  background-color: #ffffff;
+}
+.admin {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 10px 20px 30px;
+}
+.admin-header {
+  text-align: center;
+  margin: 25px 0px 20px 62px;
+  width: 125px;
+  height: 40px;
+  border-radius: 0.2cm;
+}
+.admin_img {
+  width: 250px;
+  height: 200px;
+  margin: 0 0 20px 20px;
+  border-radius: 0.25cm;
+}
+.loginForm {
+  position: relative;
+  margin-bottom: 5px 0 10px 0;
+  padding: 50px 0px 70px 0px;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+.admin-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.admin-input {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f4f4f4;
+}
+
+.admin-btn {
+  font-size: 20px;
+  width: 90px;
+  height: 40px;
+  padding: 10px;
+  background-color: #006989;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.3cm;
+  cursor: pointer;
+}
+
+.admin-btn:hover {
+  background-color: #378ce7;
+}
+
+.admin-forgot {
+  position: absolute;
+  font-size: 12px;
+  cursor: pointer;
+  margin: 10px 10px 10px 10px;
+  right: -10px;
+  bottom: 100px;
+}
